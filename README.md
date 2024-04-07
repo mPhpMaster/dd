@@ -1,5 +1,5 @@
 # dd
-`dd` is a helper method in Laravel. This package will add the `dd` to your application.
+`dd` with file name & line & method.
 
 # Install
 Run `composer require mphpmaster/dd`
