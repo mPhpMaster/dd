@@ -11,13 +11,23 @@
       },
       {
         "name": "mPhpMaster",
-        "email": "mphpmaster@gmail.com"
+        "email": "59211285+mPhpMaster@users.noreply.github.com"
       }
   ],
   "require": {
     "larapack/dd": "*"
   },
   "autoload": {
+    "psr-4": {
+      "MPhpMaster\\dd\\": "src/"
+    },
     "files": ["src/helper.php"]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MPhpMaster\\dd\\Providers\\HelperProvider"
+      ]
+    }
   }
 }
