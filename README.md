@@ -2,7 +2,7 @@
 `dd` is a helper method in Laravel. This package will add the `dd` to your application.
 
 # Install
-Run `composer require larapack/dd 1.*`
+Run `composer require mphpmaster/dd`
 
 # For Laravel
 [Laravel](http://laravel.com) already have the `dd` function in its helpers.
